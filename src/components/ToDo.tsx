@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 // import type { RootState } from '../redux/store'
 import {ToDoType} from "../types/Types"
 import { useState } from "react";
-import { addLocale, editTodo, removeTodo } from "../redux/ToDoSlice";
+import { editTodo, removeTodo } from "../redux/ToDoSlice";
 import { useDispatch } from "react-redux";
 // import { useSelector } from "react-redux";
 // import { RootState } from "../redux/store";
